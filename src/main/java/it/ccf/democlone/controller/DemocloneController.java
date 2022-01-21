@@ -10,6 +10,7 @@ public class DemocloneController {
 	@GetMapping("/welcome")
 	public String getWelcome(Model m) {
 		// prova per git clone
+		// prova per push da eclipse
 		m.addAttribute("welcome", "Simple SpringBoot test");
 		return "welcome";
 		
